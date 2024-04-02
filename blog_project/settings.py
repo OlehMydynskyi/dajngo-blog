@@ -29,6 +29,7 @@ ALLOWED_HOSTS = []
 
 LOGIN_REDIRECT_URL = 'blogs:index'
 LOGOUT_REDIRECT_URL = 'blogs:index'
+LOGIN_URL = 'accounts:login'
 
 
 # Application definition
